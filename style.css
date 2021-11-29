@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(109, 80, 109);
+}
+#input {
+  width: 500px;
+  height: 100px;
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+  left: 90px;
+}
+#btn {
+  position: relative;
+  text-align: center;
+
+  font-size: 3rem;
+  left: 200px;
+  width: 300px;
+  height: 70px;
+}
+#btnDelete {
+  position: relative;
+  text-align: center;
+
+  font-size: 3rem;
+  left: 708px;
+  width: 300px;
+  height: 70px;
+}
+#text {
+  font-size: 3rem;
+  color: green;
+  position: relative;
+  left: 276px;
+  bottom: 78px;
+}
