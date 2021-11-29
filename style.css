@@ -7,14 +7,18 @@ body {
   position: relative;
   text-align: center;
   font-size: 3rem;
-  left: 90px;
+  left: 0px;
+}
+#root {
+  height: 300px;
+  position: relative;
 }
 #btn {
   position: relative;
   text-align: center;
-
+  top: 130px;
   font-size: 3rem;
-  left: 200px;
+  left: 329px;
   width: 300px;
   height: 70px;
 }
@@ -33,4 +37,21 @@ body {
   position: relative;
   left: 306px;
   bottom: 9px;
+}
+.input {
+  width: 500px;
+  height: 100px;
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+  left: 0px;
+}
+.btn {
+  position: relative;
+  text-align: center;
+  top: 130px;
+  font-size: 3rem;
+  left: 329px;
+  width: 300px;
+  height: 70px;
 }
