@@ -24,6 +24,7 @@ btn.addEventListener("click",function(){
     localStorage.setItem("username",inputText);
     
 addAction()
+
 removeItem()
 
 
@@ -35,17 +36,19 @@ function addAction(){
 
     let text = document.createElement("h2");
     text.setAttribute("id","text");
-    text.innerText = input.value;
-    root.append(text);
+    text.innerHTML = input.value;
+    root.appendChild(text);
     root.append(btnDelete);
+    
     
 }
 
 
-removeItem()
+
 
 function removeItem(){
     btnDelete.addEventListener("click",function(){
         console.log(input.value);
+        text.innerHTML = "";
     })
 }
