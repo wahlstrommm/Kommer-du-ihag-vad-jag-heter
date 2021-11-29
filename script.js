@@ -19,25 +19,23 @@ btn.addEventListener("click",function(){
     let inputText = input.value;
     localStorage.setItem("username",inputText);
     
+addAction()
 
-
-    addAction()
-
+    function addAction(){
+        var div = document.createElement("div");
+        root.append(div);
+        btnDelete = document.createElement("button");
+        btnDelete.innerText ="Radera";
+        btnDelete.id="btnDelete";
+        div.append(btnDelete);
+        
+    
+        let text = document.createElement("h2");
+        text.setAttribute("id","text");
+        text.innerText = inputText;
+        div.append(text);
+    }
 
 });
 
 
-function addAction(){
-    var div = document.createElement("div");
-    root.append(div);
-    btnDelete = document.createElement("button");
-    btnDelete.innerText ="Radera";
-    btnDelete.id="btnDelete";
-    div.append(btnDelete);
-    
-
-    let text = document.createElement("h2");
-    text.setAttribute("id","text");
-    text.innerText = inputText;
-    div.append(text);
-}
