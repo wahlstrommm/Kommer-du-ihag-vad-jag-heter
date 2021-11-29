@@ -14,28 +14,38 @@ btn.innerText = "lägg till!";
 btn.setAttribute("id","btn");
 root.append(btn);
 
+var btnDelete = document.createElement("button");
+btnDelete.innerText ="Radera";
+btnDelete.setAttribute("id","btnDelete");
+
 btn.addEventListener("click",function(){
     console.log(input.value);
     let inputText = input.value;
     localStorage.setItem("username",inputText);
     
 addAction()
+removeItem()
 
-    function addAction(){
-        var div = document.createElement("div");
-        root.append(div);
-        btnDelete = document.createElement("button");
-        btnDelete.innerText ="Radera";
-        btnDelete.id="btnDelete";
-        div.append(btnDelete);
-        
-    
-        let text = document.createElement("h2");
-        text.setAttribute("id","text");
-        text.innerText = inputText;
-        div.append(text);
-    }
 
 });
 
 
+function addAction(){
+    
+
+    let text = document.createElement("h2");
+    text.setAttribute("id","text");
+    text.innerText = input.value;
+    root.append(text);
+    root.append(btnDelete);
+    
+}
+
+
+removeItem()
+
+function removeItem(){
+    btnDelete.addEventListener("click",function(){
+        console.log(input.value);
+    })
+}

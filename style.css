@@ -21,7 +21,7 @@ body {
 #btnDelete {
   position: relative;
   text-align: center;
-
+  bottom: 104px;
   font-size: 3rem;
   left: 708px;
   width: 300px;
@@ -31,6 +31,6 @@ body {
   font-size: 3rem;
   color: green;
   position: relative;
-  left: 276px;
-  bottom: 78px;
+  left: 306px;
+  bottom: 9px;
 }
