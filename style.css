@@ -3,22 +3,24 @@ body {
 }
 #input {
   width: 500px;
+  top: 121px;
   height: 100px;
   position: relative;
   text-align: center;
   font-size: 3rem;
-  left: 0px;
+  right: 0px;
 }
 #root {
   height: 300px;
   position: relative;
+  top: 0;
 }
 #btn {
   position: relative;
   text-align: center;
-  top: 130px;
+  top: 117px;
   font-size: 3rem;
-  left: 329px;
+  left: 170px;
   width: 300px;
   height: 70px;
 }
@@ -44,14 +46,13 @@ body {
   position: relative;
   text-align: center;
   font-size: 3rem;
-  left: 0px;
+  right: 0px;
 }
 .btn {
+  width: 500px;
+  height: 100px;
   position: relative;
   text-align: center;
-  top: 130px;
   font-size: 3rem;
-  left: 329px;
-  width: 300px;
-  height: 70px;
+  right: 302px;
 }
