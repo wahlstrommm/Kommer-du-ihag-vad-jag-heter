@@ -39,6 +39,10 @@ function addItem(){
     
     storeItem()
 }
+
+
+
+
 //tar bort
 btnDel.addEventListener("click",function(){
     localStorage.clear();
